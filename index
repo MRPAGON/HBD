@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Happy Birthday, Bestie!</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#messages">Messages</a></li>
+        <li><a href="#fun-facts">Fun Facts</a></li>
+        <li><a href="#surprise">Surprise</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2 id="welcome-message"></h2>
+    <p>Get ready for a journey through our favorite memories and some fun surprises!</p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="carousel">
+      <img src="https://via.placeholder.com/300" alt="Photo 1" class="active">
+      <img src="https://via.placeholder.com/300" alt="Photo 2">
+      <img src="https://via.placeholder.com/300" alt="Photo 3">
+      <button class="prev">&lt;</button>
+      <button class="next">&gt;</button>
+    </div>
+  </section>
+
+  <section id="surprise">
+    <h2>Surprise!</h2>
+    <button id="reveal-btn">Click to Reveal</button>
+    <p id="hidden-message" class="hidden">You're the best friend anyone could ever ask for! 💖</p>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ just for you!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
