@@ -1,0 +1,47 @@
+/* Carousel Styles */
+.carousel {
+  position: relative;
+  width: 300px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.carousel img {
+  display: none;
+  width: 100%;
+}
+
+.carousel img.active {
+  display: block;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #ffcc00;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.carousel .prev {
+  left: 10px;
+}
+
+.carousel .next {
+  right: 10px;
+}
+
+/* Hidden Message */
+.hidden {
+  display: none;
+}
+
+#hidden-message {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #ffcc00;
+  font-weight: bold;
+  text-align: center;
+}
